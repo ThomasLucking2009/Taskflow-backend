@@ -1,11 +1,11 @@
 const express = require('express')
 const app = express()
-import { url } from './mongodburl'
+require('dotenv').config();
 
 const mongoose = require("mongoose")
 const port = 3000
 
-const mongooseurl= url
+const mongooseurl = process.env.MONGODB_URI;
 
 mongoose.connect(mongooseurl)
 
