@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Taskflow backend for database and authentication",
+  "homepage": "https://github.com/ThomasLucking2009/Taskflow-backend#readme",
+  "bugs": {
+    "url": "https://github.com/ThomasLucking2009/Taskflow-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasLucking2009/Taskflow-backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.14.1",
+    "nodemon": "^3.1.10"
+  }
+}
